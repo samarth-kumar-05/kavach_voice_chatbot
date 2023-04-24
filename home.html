@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chatbot Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BUG-BYTE CHATBOT</h1>
+	<div class="container">
+		<div class="chatbox">
+			<div class="chatlogs">
+                <div class="chat user">
+                    <div class="user-photo"><img src="user-avatar.png"></div>
+                    <p class="chat-message" id="user-msg"></p>
+                </div>
+				<div class="chat self">
+					<div class="user-photo"><img src="avatar.png"></div>
+					<p class="chat-message" id="bot-msg">Hi there! How can I assist you today?</p>
+				</div>
+			</div>
+			<div class="chat-form">
+
+				<button id="start-btn">ASK ANYTHING</button>
+			</div>
+		</div>
+	</div>
+    <script src="index.js"></script>
+</body>
+</html>
